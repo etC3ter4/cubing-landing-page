@@ -1,0 +1,34 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    background: url(cube.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1 {
+    font-style: arial;
+    color: aqua;
+    font-size: 3rem;
+}
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color: rgb(248, 82, 16);
+    border-color: rgb(248, 82, 16);
+}
+.buffer {
+    height: 5rem;
+}
+.btn-xl {
+    padding: 1rem 2rem;
+}
+.center {
+    align-items: center;
+}
